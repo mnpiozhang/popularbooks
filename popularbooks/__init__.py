@@ -1,1 +1,1 @@
-from popularbooks.getinfo import get_JD_ItTop20
+from popularbooks.getinfo import get_JD_Top20,get_JD_Top

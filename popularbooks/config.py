@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 #_*_ coding:utf-8 _*_
-JD_BOOK_URL = 'http://book.jd.com/booktop/%s.html?category=%s-%s-%s-1'
+JD_BOOK_URL = 'http://book.jd.com/booktop/%s.html?category=%s-%s-%s-%s'
 REGEX = '<a href="//item.jd.com/\d{8}.html" target="_blank" title="(.*?)".*<img data-lazy-img="(.*?)".*></a>'
 ITEM = { 
-         'nbs':'0-0-0',
-         'bs':'0-1-0',
+         'nbs':'0-1-0',
+         'bs':'0-0-0',
          'bc':'0-0-1',
          'nbc':'0-1-1',
         }
