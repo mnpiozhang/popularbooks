@@ -2,7 +2,6 @@
 #_*_ coding:utf-8 _*_
 import spider
 import config as cg
-from reportlab.platypus.para import PageNumberObject
 def get_JD_Top20(item='nbs',category='internet',effectivetime='day',):
     '''
     item  str  default 新书销量榜  nbs  
