@@ -21,8 +21,9 @@ class webSpider:
         bookdict = OrderedDict()
         for i in items:
             tmpdict = OrderedDict()
-            tmpdict['name'] = i[0]
-            tmpdict['pic'] = i[1]
+            tmpdict['url'] = i[0]
+            tmpdict['name'] = i[1]
+            tmpdict['pic'] = i[2]
             bookdict['top' + str(items.index(i) + 1)] = tmpdict
         return json.dumps(bookdict,encoding="UTF-8", ensure_ascii=False)
     
@@ -56,7 +57,8 @@ class webSpiderList:
         bookdict = OrderedDict()
         for i in items:
             tmpdict = OrderedDict()
-            tmpdict['name'] = i[0]
-            tmpdict['pic'] = i[1]
+            tmpdict['url'] = i[0]
+            tmpdict['name'] = i[1]
+            tmpdict['pic'] = i[2]
             bookdict['top' + str(items.index(i) + 1)] = tmpdict
         return json.dumps(bookdict,encoding="UTF-8", ensure_ascii=False)
