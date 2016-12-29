@@ -10,6 +10,7 @@ print pb.get_JD_Top('bs','jitang','week',22)
 
 参数说明
 
+
 get_JD_Top20(item='nbs',category='internet',effectivetime='day',)
     item  str  default 新书销量榜  nbs  
     新书销量榜    nbs  
