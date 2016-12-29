@@ -1,14 +1,13 @@
 # popularbooks
-小玩意 python爬虫 返回京东各类图书排行榜top20，可以自定义top1~100
-返回json格式
+小玩意 python爬虫 返回京东各类图书排行榜top20，可以自定义top1~100  
+返回json格式  
 
-使用例子
-import popularbooks as pb
+使用例子  
+import popularbooks as pb  
+print pb.get_JD_Top20('bs','jitang','week')  
+print pb.get_JD_Top('bs','jitang','week',22)  
 
-print pb.get_JD_Top20('bs','jitang','week')
-print pb.get_JD_Top('bs','jitang','week',22)
-
-参数说明
+参数说明  
 
 
 get_JD_Top20(item='nbs',category='internet',effectivetime='day',)
